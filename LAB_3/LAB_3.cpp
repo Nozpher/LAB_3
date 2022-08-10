@@ -1,13 +1,8 @@
 ﻿#include <cstdlib>
 #include <iostream>
 #include <math.h>
-#define A 0.1
-#define B 0.8
 #define E 10e-4
 using namespace std;
-
-
-
 int main()
 {
 	double	e = 0.0001;		//погрешность
@@ -23,7 +18,6 @@ int main()
 	double	S1;				//сумма ряда из n элементов
 	double	S2;				//сумма ряда, пока очередной элемент больше погрешности
 	double	f;				//точное значение функции
-	
 	for (i1 = 0; i1 <= k; i1++) 
 	{
 		x = a + i1 * h;
@@ -42,9 +36,6 @@ int main()
 		}
 		printf("x=%.2f SN=%f SE=%f Y=%f\n", x, S1, S2, f);
 	}
-
 	return 0;
-
-
 }
 
