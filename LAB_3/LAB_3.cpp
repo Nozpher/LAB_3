@@ -1,7 +1,6 @@
 ﻿#include <cstdlib>
 #include <iostream>
 #include <math.h>
-#define E 10e-4
 using namespace std;
 int main()
 {
